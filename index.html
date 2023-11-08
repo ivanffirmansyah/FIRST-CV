@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tania Winanda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/cece.jpg">
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="Images/logo.jpg" class="logo" /></a>
+        <ul>
+          <li><a href="#">Tania</a></li>
+          <li><a href="#">Winanda</a></li>
+          <li><a href="#">Beautiful</a></li>
+          <li><a href="#">In White</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2><br />Tania<span>Winanda</span></h2>
+          <p>
+            Tania winanda As specialy angel from jakarta and will be angel in my heart <3 <br />
+            
+          </p>
+          <a href="#">Very Humble</a>
+        </div>
+      
+      </div>
+      <ul class="thumb">
+        <li><img src="Images/starbuk.jpg" onclick="changeImg('Images/img1.png', '#E5C3A6')" /></li>
+        <li><img src="Images/cece.jpg" onclick="changeImg('Images/img2.png', '#FFCC70')" /></li>
+        <li><img src="Images/github.jpg" onclick="changeImg('Images/img3.png', '#AD8B73')" /></li>
+      </ul>
+      <ul class="SocialMedia">
+        <li>
+          <a href="https://www.youtube.com/channel/UCHS2x2b1hIWpTFwkog_9KFg" target="_blank"
+            ><img src="Images/YouTube.png" class="YouTube-logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/juniorprogrammerhi/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank"
+            ><img src="Images/Instagram.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/JuniorProgrammerHi" target="_blank"><img src="Images/Github.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript">
+      function changeImg(imgSource, imgBg) {
+        document.querySelector(".starbucks").src = imgSource;
+        document.querySelector(".circle").style.background = imgBg;
+      }
+    </script>
+  </body>
+</html>
